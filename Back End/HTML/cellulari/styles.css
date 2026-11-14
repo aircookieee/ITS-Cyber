@@ -1,0 +1,54 @@
+p {
+    color: rgb(181, 255, 84);
+    font-size: 30px;
+    text-align: center;
+    background-color: chocolate;
+}
+
+h1,
+h2,
+h3 {
+    color: rgb(183, 9, 186);
+    font-size: 40px;
+    text-align: left;
+    background-color: yellowgreen;
+}
+
+body {
+    background-color: darkgray;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+#mioParagrafo {
+    color: aquamarine;
+}
+
+.paragrafoRosso {
+    background-color: darkred;
+}
+
+a:link {
+    color: blueviolet;
+}
+
+a:visited {
+    color: orange;
+}
+
+a:hover {
+    color: green;
+}
+
+a:active {
+    color: aliceblue;
+}
+
+.momo-signature-regular {
+    font-family: "Momo Signature", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
