@@ -1,0 +1,46 @@
+body {
+    background-color: rgb(255, 222, 139);
+}
+
+.navbar {
+    display: flex;
+    background-color: yellow;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    width: 300px;
+    padding-left: 0.5%;
+    padding-right: 10%;
+}
+
+.navbar div {
+    display: flex;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+}
+
+.navbar a {
+    display: flex;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.navbar a:active {
+    color: aqua;
+}
+
+.navbar a:visited {
+    color: brown;
+}
+
+.navbar div:hover {
+    background-color: rgb(208, 156, 11);
+}
+
+.navbar div img {
+    height: 32px;
+    width: 32px;
+}
